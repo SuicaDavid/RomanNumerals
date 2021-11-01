@@ -1,0 +1,23 @@
+{
+  "name": "romannumerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuicaDavid/RomanNumerals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuicaDavid/RomanNumerals/issues"
+  },
+  "homepage": "https://github.com/SuicaDavid/RomanNumerals#readme"
+}
