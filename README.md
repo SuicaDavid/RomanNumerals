@@ -16,7 +16,7 @@ let keys = {
   I: 1,
 };
 ```
-However, I add the IV key between V and I to simplify the development. In addition, I extract the variable of max and mini number as class members to be shared with other methods which may be extended in the future.
+However, I add the IV key between V and I to simplify the development. In addition, I extract the variable of max and mini number as class members to be shared with other methods which may be extended in the future. According to the question, I posit the maximum number is 3999 and the minimum number is 1.
 
 
 ```javascript
@@ -84,3 +84,7 @@ Or run all test cases
 ```
 yarn test
 ```
+
+
+### Limitation of this answer
+This program cannot calculate the number which out of range. Although it only uses one for loop, it still relies on the manual configuration of keys-value.
