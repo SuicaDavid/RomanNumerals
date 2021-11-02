@@ -18,6 +18,11 @@ describe('Test input', () => {
         checkNumber(input, expectedNumber)
     })
 
+    test('Input not integer', () => {
+        const input = 1.5, expectedNumber = null
+        checkNumber(input, expectedNumber)
+    })
+
 
     test('Input Object', () => {
         const input = {}, expectedNumber = null
